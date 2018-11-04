@@ -18,12 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="GradeBook.cpp">
+    <ClCompile Include="Date.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GradeBook.h">
+    <ClInclude Include="Date.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
