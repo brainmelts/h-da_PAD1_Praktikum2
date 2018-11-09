@@ -5,19 +5,19 @@ public:
     Invoice(std::string, std::string, int, double);
 
     void setPartNumber(std::string);
-    std::string getPartNumber();
+    std::string getPartNumber() const;
 
     void setPartDescription(std::string);
-    std::string getPartDescription();
+    std::string getPartDescription() const;
 
     void setQuantity(int);
-    int getQuantity();
+    int getQuantity() const;
 
     void setPricePerItem(double);
-    double getPricePerItem();
+    double getPricePerItem() const;
 
-    double computeInvoiceAmount();
-    std::string toString();
+    double computeInvoiceAmount() const;
+    std::string toString() const;
 
 private:
     std::string partNumber;

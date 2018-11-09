@@ -4,7 +4,6 @@ using namespace std;
 #include "GradeBook.h"
 
 int main() {
-    string nameOfCourse;
     GradeBook gradeBook1("CS101 Introduction to C++ Programming", "Weber, H.P.");
     GradeBook gradeBook2("CS102 Data Structures in C++", "Weber, H.P.");
 

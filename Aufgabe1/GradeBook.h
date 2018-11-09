@@ -2,7 +2,7 @@
 
 class GradeBook {
 public:
-    explicit GradeBook(std::string, std::string);
+    GradeBook(std::string, std::string);
 
     void setCourseName(std::string);
     void setDozentName(std::string);

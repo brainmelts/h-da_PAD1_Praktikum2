@@ -9,17 +9,17 @@ Date::Date(int d, int m, int y) {
 }
 
 void Date::setDay(int d) { day = d; }
-int Date::getDay() { return day; }
+int Date::getDay() const { return day; }
 
 void Date::setMonth(int m) {
     if (m <= 0 || m > 12) month = 1;
     else month = m;
 }
-int Date::getMonth() { return month; }
+int Date::getMonth() const { return month; }
 
 void Date::setYear(int y) { year = y; }
-int Date::getYear() { return year; }
+int Date::getYear() const { return year; }
 
-string Date::toString() {
+string Date::toString() const {
     return to_string(day) + "." + to_string(month) + "." + to_string(year);
 }

@@ -5,15 +5,15 @@ public:
     Date(int, int, int);
 
     void setDay(int);
-    int getDay();
+    int getDay() const;
 
     void setMonth(int);
-    int getMonth();
+    int getMonth() const;
 
     void setYear(int);
-    int getYear();
+    int getYear() const;
 
-    std::string toString();
+    std::string toString() const;
 
 private:
     int day;
